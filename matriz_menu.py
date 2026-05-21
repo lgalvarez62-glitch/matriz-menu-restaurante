@@ -39,7 +39,7 @@ for producto in menu_restaurante:
     precio_final = calcular_precio_final(categoria, precio_base, CATEGORIA_PROMO, UMBRAL_PROMO)
 
     #mostramos los resultados alineados y con formato de miles
-    print(f"{nombre:<22} | {categoria:<15} | ${precio_base:<10,} | ${precio_final:<10,.9f}")
+    print(f"{nombre:<22} | {categoria:<15} | ${precio_base:<10,} | ${precio_final:<10,.0f}")
 
 print("=" *65)
     
